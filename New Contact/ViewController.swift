@@ -28,9 +28,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "showNameSegue") {
+            if let svc = segue.destinationViewController as? ViewController2 {
+                svc.nameToDisplay = nameField.text!
+              
+            }
+        }
+    }
 
     // MARK: Actions
 
+    @IBAction func pinchAction(sender: UIPinchGestureRecognizer) {
+        nameField.text = "Bubba"
+        lastField.text = "Gump"
+        emailField.text = "awesome@bubbagump.com"
+        phoneField.text = "867-5309"
+    }
     @IBAction func addContactAction(sender: UIButton) {
         // Creating a mutable object to add to the contact
         let contact = CNMutableContact()
