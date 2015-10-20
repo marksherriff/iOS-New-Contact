@@ -12,7 +12,9 @@ import Contacts
 class ViewController2: UIViewController {
     
     var nameToDisplay = "None"
+    // MARK: Properties
     
+    @IBOutlet weak var nameField: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
     
     override func viewWillAppear(animated: Bool) {
@@ -42,17 +44,34 @@ class ViewController2: UIViewController {
     
     @IBAction func datePickerChanged(sender: UIDatePicker) {
         print(datePicker.date)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: Properties
     
-    @IBOutlet weak var nameField: UILabel!
     
     // MARK: Actions
 
+    @IBAction func shareButton(sender: UIButton) {
+//        let alertController = UIAlertController(title: nil,
+//            message: "Share today's date!",
+//            preferredStyle: .Alert)
+//        alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+//        
+//        presentViewController(alertController, animated: true, completion: nil)
+        
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .MediumStyle
+        
+        let string = dateFormatter.stringFromDate(datePicker.date)
+        
+        let activityViewController = UIActivityViewController(activityItems: [string as NSString], applicationActivities: nil)
+        
+        presentViewController(activityViewController, animated: true, completion :{})
+        
+    }
 
 }
