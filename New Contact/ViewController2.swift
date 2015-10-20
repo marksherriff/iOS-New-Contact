@@ -56,12 +56,6 @@ class ViewController2: UIViewController {
     // MARK: Actions
 
     @IBAction func shareButton(sender: UIButton) {
-//        let alertController = UIAlertController(title: nil,
-//            message: "Share today's date!",
-//            preferredStyle: .Alert)
-//        alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-//        
-//        presentViewController(alertController, animated: true, completion: nil)
         
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateStyle = .MediumStyle
