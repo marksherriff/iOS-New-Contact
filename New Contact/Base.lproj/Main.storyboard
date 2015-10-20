@@ -138,15 +138,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEo-cA-Zxe">
-                                <rect key="frame" x="20" y="289" width="397" height="21"/>
+                                <rect key="frame" x="20" y="72" width="397" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="4fr-hR-ZGh">
+                                <rect key="frame" x="0.0" y="101" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="467054733.07592797">
+                                    <!--2015-10-20 17:25:33 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="datePickerChanged:" destination="DvZ-tG-bUR" eventType="valueChanged" id="hqD-Wq-Quz"/>
+                                </connections>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4fr-hR-ZGh" firstAttribute="leading" secondItem="O0t-iL-mqH" secondAttribute="leadingMargin" constant="-20" id="Y4n-yD-H32"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4fr-hR-ZGh" secondAttribute="trailing" constant="-20" id="gxI-Yn-dun"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="datePicker" destination="4fr-hR-ZGh" id="zKL-qd-fNC"/>
                         <outlet property="nameField" destination="HEo-cA-Zxe" id="2oF-TU-nYK"/>
                     </connections>
                 </viewController>

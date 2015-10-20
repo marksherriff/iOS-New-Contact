@@ -17,12 +17,33 @@ class ViewController: UIViewController {
     @IBOutlet weak var lastField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var phoneField: UITextField!
+
     
     
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        print("VC1: I am now appearing")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        print("VC1: I am now disappearing")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        print("VC1: I have appeared!!!")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        print("VC1: I am ghost....")
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
