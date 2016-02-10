@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3" customClass="UIControl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -119,6 +119,7 @@
                             <constraint firstItem="Hmp-x2-8Sl" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="w40-c4-RXl"/>
                         </constraints>
                         <connections>
+                            <action selector="userTappedBackground:" destination="01J-lp-oVM" eventType="touchDown" id="2q7-E2-wLD"/>
                             <outletCollection property="gestureRecognizers" destination="Azw-gn-twC" appends="YES" id="zTU-YW-gVe"/>
                         </connections>
                     </view>

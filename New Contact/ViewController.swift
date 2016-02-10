@@ -50,7 +50,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+
+    @IBAction func userTappedBackground(sender: AnyObject) {
+        view.endEditing(true)
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "showNameSegue") {
