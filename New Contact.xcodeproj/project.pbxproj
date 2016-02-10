@@ -12,7 +12,7 @@
 		0240A7A01BD0935100BFEBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0240A79E1BD0935100BFEBC9 /* LaunchScreen.storyboard */; };
 		0240A7A21BD0935100BFEBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0240A7A11BD0935100BFEBC9 /* Assets.xcassets */; };
 		0240A7A51BD0935100BFEBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0240A7A31BD0935100BFEBC9 /* Main.storyboard */; };
-		024C44471BD49D5700349162 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C44461BD49D5700349162 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		024C44471BD49D5700349162 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C44461BD49D5700349162 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "New Contact/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.virginia.cs.cs4720.New-Contact";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -267,6 +268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "New Contact/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.virginia.cs.cs4720.New-Contact";
 				PRODUCT_NAME = "$(TARGET_NAME)";

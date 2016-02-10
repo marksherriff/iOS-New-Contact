@@ -55,7 +55,9 @@ class ViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "showNameSegue") {
             if let svc = segue.destinationViewController as? ViewController2 {
+                
                 svc.nameToDisplay = nameField.text!
+                
               
             }
         }

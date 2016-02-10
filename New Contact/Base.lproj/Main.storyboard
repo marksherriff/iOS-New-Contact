@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GHP-Ek-khz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GHP-Ek-khz">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -21,13 +21,13 @@
                                 <rect key="frame" x="20" y="70" width="560" height="255"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add A New Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUc-0x-D7f">
-                                        <rect key="frame" x="0.0" y="0.0" width="151" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="550" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xnp-5b-Dk3">
-                                        <rect key="frame" x="0.0" y="21" width="88" height="21"/>
+                                        <rect key="frame" x="0.0" y="21" width="550" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzd-FJ-si2">
-                                        <rect key="frame" x="0.0" y="72" width="87" height="21"/>
+                                        <rect key="frame" x="0.0" y="72" width="550" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -49,7 +49,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQo-7A-ALO">
-                                        <rect key="frame" x="0.0" y="123" width="46" height="21"/>
+                                        <rect key="frame" x="0.0" y="123" width="550" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -60,18 +60,18 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlj-da-NyL">
-                                        <rect key="frame" x="0.0" y="174" width="54" height="21"/>
+                                        <rect key="frame" x="0.0" y="174" width="550" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z57-Mz-h0k">
-                                        <rect key="frame" x="0.0" y="195" width="560" height="30"/>
+                                        <rect key="frame" x="0.0" y="195" width="550" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-yg-APk">
-                                        <rect key="frame" x="0.0" y="225" width="86" height="30"/>
+                                        <rect key="frame" x="0.0" y="225" width="550" height="30"/>
                                         <state key="normal" title="Add Contact"/>
                                         <connections>
                                             <action selector="addContactAction:" destination="01J-lp-oVM" eventType="touchUpInside" id="xbX-3b-LeT"/>
@@ -79,18 +79,38 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7u2-p6-Wcl" secondAttribute="trailing" constant="10" id="2Kq-fs-KBZ"/>
+                                    <constraint firstItem="Xnp-5b-Dk3" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="2hU-3r-7kd"/>
+                                    <constraint firstAttribute="trailing" secondItem="qUc-0x-D7f" secondAttribute="trailing" constant="10" id="5wh-sY-6Db"/>
+                                    <constraint firstAttribute="trailing" secondItem="iQo-7A-ALO" secondAttribute="trailing" constant="10" id="7Ra-eX-rDi"/>
                                     <constraint firstAttribute="trailing" secondItem="z57-Mz-h0k" secondAttribute="trailing" id="83F-Cj-GDB"/>
+                                    <constraint firstItem="d3d-5h-Rvi" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="CG2-mM-0Sl"/>
                                     <constraint firstItem="z57-Mz-h0k" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="G9a-AZ-c93"/>
+                                    <constraint firstAttribute="trailing" secondItem="oD8-yg-APk" secondAttribute="trailing" constant="10" id="GNo-oT-STJ"/>
+                                    <constraint firstItem="Tzd-FJ-si2" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="HOb-gg-DFV"/>
+                                    <constraint firstAttribute="trailing" secondItem="d3d-5h-Rvi" secondAttribute="trailing" constant="10" id="Haa-9F-0rG"/>
+                                    <constraint firstItem="Vlj-da-NyL" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="JtQ-YN-xfW"/>
+                                    <constraint firstItem="qUc-0x-D7f" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="MYU-jg-kHq"/>
                                     <constraint firstAttribute="trailing" secondItem="7u2-p6-Wcl" secondAttribute="trailing" id="RF1-NI-oXJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xnp-5b-Dk3" secondAttribute="trailing" constant="10" id="U2m-ew-tbD"/>
+                                    <constraint firstItem="Xnp-5b-Dk3" firstAttribute="top" secondItem="qUc-0x-D7f" secondAttribute="bottom" constant="10" id="U5Q-gc-m6x"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tzd-FJ-si2" secondAttribute="trailing" constant="10" id="Xiv-eo-reY"/>
                                     <constraint firstItem="d3d-5h-Rvi" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="Yv7-dG-vMG"/>
+                                    <constraint firstAttribute="trailing" secondItem="FIC-4h-Adp" secondAttribute="trailing" constant="10" id="Zyr-Kv-EzY"/>
                                     <constraint firstItem="7u2-p6-Wcl" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="dE5-93-U4a"/>
+                                    <constraint firstItem="7u2-p6-Wcl" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="e3I-Ad-lXD"/>
+                                    <constraint firstItem="iQo-7A-ALO" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="e9n-X2-Oqp"/>
                                     <constraint firstItem="FIC-4h-Adp" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="fDG-yl-IOG"/>
+                                    <constraint firstAttribute="trailing" secondItem="z57-Mz-h0k" secondAttribute="trailing" constant="10" id="ivr-ll-BIs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vlj-da-NyL" secondAttribute="trailing" constant="10" id="jqD-vY-ukN"/>
+                                    <constraint firstItem="oD8-yg-APk" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="lDa-Hz-UHD"/>
                                     <constraint firstAttribute="trailing" secondItem="d3d-5h-Rvi" secondAttribute="trailing" id="oe3-88-jZz"/>
+                                    <constraint firstItem="z57-Mz-h0k" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="ogf-LJ-n9w"/>
                                     <constraint firstAttribute="trailing" secondItem="FIC-4h-Adp" secondAttribute="trailing" id="q72-GF-UdC"/>
+                                    <constraint firstItem="FIC-4h-Adp" firstAttribute="leading" secondItem="Hmp-x2-8Sl" secondAttribute="leading" id="vLn-lz-WCb"/>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
